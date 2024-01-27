@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MuHammad Saif</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/b522fef9ba.js" crossorigin="anonymous"></script>
+  <!-- Fav Icon -->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <!-- Tailwind & Daisy-UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="scripts/tailwind.config.js">
+  <!-- Custom Tailwind -->
+  <link rel="stylesheet" href="scripts/customTailwind.js">
+  <!-- Custom JavaScript -->
+  <link rel="stylesheet" href="scripts/index.js">
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="w-[95%] md:w-[80%] mx-auto">
+    <!-- Navigation -->
+    <nav class="md:my-5 ">
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost p-0 pr-2 lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class=" h-auto w-7" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html" class="text-orange-500 text-[17px]">Home</a></li>
+              <li><a class="text-[17px]">About</a></li>
+              <li><a class="text-[17px]">Pages</a></li>
+              <li><a class="text-[17px]">Blog</a></li>
+              <li><a class="text-[17px]">Contact</a></li>
+            </ul>
+          </div>
+          <a href="#">
+            <h1 class="text-[20px] hover:scale-105 font-black text-orange-500">MUHAMMAD SAIF</h1>
+          </a>
+        </div>
+        <div class="navbar-center  hidden lg:flex">
+          <ul class="menu menu-horizontal">
+            <li><a href="index.html" class="text-orange-500 text-[17px]">Home</a></li>
+            <li><a class="text-[17px]">About</a></li>
+            <li><a class="text-[17px]">Pages</a></li>
+            <li><a class="text-[17px]">Blog</a></li>
+            <li><a class="text-[17px]">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <i class="fa-solid fa-magnifying-glass text-3xl mr-4 hidden md:block"></i>
+          <a class="btn bg-orange-500 text-gray-100 text-sm px-4 m-0">Sign UP</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <div class="banner-container flex items-center justify-around flex-col lg:flex-row py-10">
+      <div class="flex-1 text-center p-5">
+        <h1 class="text-xl md:text-2xl font-bold text-orange-500 ">
+          Web Developer
+          </h1>
+        <h1 class="text-3xl md:text-4xl font-bold text-white pt-3">
+          MuHammad Saif
+        </h1>
+        <p class="text-gray-400 mt-3">
+          This is saif. A web developer. Heir me for design websites & development.
+        </p>
+      </div>
+      <div class="flex-1 p-5">
+        <img src="images/logo.jpg" class="rounded-full w-[40%] block mx-auto hover:scale-110" alt="">
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main class="w-[95%] md:w-[80%] mx-auto my-20">
+    <!-- Section Progress -->
+    <section class="mb-14 p-10 rounded-xl">
+      <div class="text-center space-y-1 md:space-y-3">
+        <h1 class=" font-bold text-3xl text-black">SKILLS</h1>
+        <p class="font text-lg text-gray-500">Explore my Skills &progresses</p>
+      </div>
+      <div class="grid mt-14 justify-items-center grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
+        <!-- progress-1 -->
+        <div class="space-y-1  items-center text-center">
+          <div class="radial-progress text-primary scale-150" style="--value:87;" role="progressbar"><span
+              class="text-black font-black text-xl">87%</span></div>
+          <h1 class="font-bold text-xl text-black pt-7">HTML</h1>
+          <p class="font-bold text-sm text-gray-500">html 87%</p>
+        </div>
+        <!-- progress-2 -->
+        <div class="mt-14 md:mt-0 space-y-1  items-center text-center">
+          <div class="radial-progress text-green-400  scale-150" style="--value:95;" role="progressbar"><span
+              class="text-black font-black text-xl">95%</span></div>
+          <h1 class="font-bold text-xl text-black  pt-7">CSS</h1>
+          <p class="font-bold text-sm text-gray-500">css 95%</p>
+        </div>
+        <!-- progress-3 -->
+        <div class="mt-14 lg:mt-0 space-y-1  items-center text-center">
+          <div class="radial-progress text-orange-400  scale-150" style="--value:90;" role="progressbar"><span
+              class="text-black font-black text-xl">90%</span></div>
+          <h1 class="font-bold text-xl text-black pt-7">JAVA SCRIPT</h1>
+          <p class="font-bold text-sm text-gray-500">javascript 90%</p>
+        </div>
+        <!-- progress-4 -->
+        <div class="mt-14 lg:mt-0 space-y-1  items-center text-center">
+          <div class="radial-progress text-blue-500  scale-150" style="--value:80;" role="progressbar"><span
+              class="text-black font-black text-xl">80%</span></div>
+          <h1 class="font-bold text-xl text-black pt-7">REACT</h1>
+          <p class="font-bold text-sm text-gray-500">react 80%</p>
+        </div>
+      </div>
+    </section>
+
+    </section>
+    <!-- Section touch -->
+    <section class="mb-14 p-5 rounded-xl">
+      <div class="text-center  space-y-1 md:space-y-3">
+        <h1 class="font-bold text-3xl text-black">Get In Touch</h1>
+        <p class=" text-lg text-gray-500">Contact with me. </p>
+      </div>
+      <!-- container -->
+      <div class=" p-5  mt-10 grid gap-10 grd-cols-1 lg:grid-cols-2 items-center">
+        <div class="md:flex-1 border rounded-xl p-6 ">
+          <div class="bg-[#F8FDF0] space-y-2 p-8 rounded-xl">
+            <img src="images/Group 1171275317.png" alt="">
+            <p class="text-sm text-gray-400">Phone Number:</p>
+            <p class="font-bold">+880 13196-30516</p>
+          </div>
+          <div class="bg-[#FFFCEF] my-7 space-y-2 p-8 rounded-xl">
+            <img src="images/Group 1171275318.png" alt="">
+            <p class="text-sm text-gray-400">Email:</p>
+            <p class="font-bold">muhammadsaif7717@gmail.com</p>
+          </div>
+          <div class="bg-[#EFF5FE] space-y-2 p-8 rounded-xl">
+            <img src="images/Group 1171275321.png" alt="">
+            <p class="text-sm text-gray-400">Location:</p>
+            <p class="font-bold">1208 Tejgaon Dhaka</p>
+          </div>
+        </div>
+        <!-- inputs -->
+        <div class="flex-1">
+
+          <div class=" grid gap-7 md:gap-14 grid-cols-1  md:grid-cols-2 items-center justify-center">
+            <div>
+              <div class="space-y-3">
+                <h1 class="text-lg font-bold ">Your Name</h1>
+                <input class="bg-[#F8F8F8]  w-[100%]  py-3 px-5 rounded-xl" type="text"
+                  placeholder="Enter your full name">
+              </div>
+              <div class="mt-7 space-y-3">
+                <h1 class="text-lg font-bold ">Your Subject</h1>
+                <input class="bg-[#F8F8F8]  w-[100%] py-3 px-5 rounded-xl" type="text" placeholder="Enter your subject">
+              </div>
+            </div>
+            <div>
+              <div class="space-y-3">
+                <h1 class="text-lg font-bold ">Your Email</h1>
+                <input class="bg-[#F8F8F8] w-[100%]  py-3 px-5 rounded-xl" type="text" placeholder="Enter your email">
+              </div>
+              <div class="mt-7 space-y-3">
+                <h1 class="text-lg font-bold ">Phone Number</h1>
+                <input class="bg-[#F8F8F8] w-[100%]  py-3 px-5 rounded-xl" type="text"
+                  placeholder="Enter phone number ">
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-7 space-y-3 col-span-2">
+            <h1 class="text-lg font-bold ">Message</h1>
+            <input class="bg-[#F8F8F8] w-[100%] pb-[250px]  pt-3 px-5 rounded-xl" type="text"
+              placeholder="Enter your message">
+            <button class="btn border-none bg-[#FF4240] pt-2 rounded-2xl text-2xl w-[100%] text-white">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section -->
+    <section></section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer footer-center p-10 bg-black text-base-content rounded">
+    <nav class="grid grid-flow-col gap-4 text-gray-400">
+      <a href="index.html" class="link link-hover">Home</a> 
+      <a class="link link-hover">About</a> 
+      <a class="link link-hover">Pages</a> 
+      <a class="link link-hover">Blog</a> 
+      <a class="link link-hover">Contact</a>
+    </nav>
+    <nav>
+      <div class="grid grid-flow-col gap-4 text-gray-400">
+        <a class="hover:scale-110 hover:text-gray-500" target="_blank" href="https://www.facebook.com/muhammadsaif7717">
+          <i class="fa-brands fa-facebook text-3xl mx-3"></i>
+        </a>
+        <a class="hover:scale-110 hover:text-gray-500" target="_blank" href="https://github.com/muhammadsaif7717">
+          <i class="fa-brands fa-github text-3xl mx-3"></i>
+        </a>
+        <a class="hover:scale-110 hover:text-gray-500" target="_blank" href="https://www.linkedin.com/in/muhammadsaif7717/">
+          <i class="fa-brands fa-linkedin text-3xl mx-3"></i>
+
+        </a>
+      </div>
+    </nav>
+    <aside>
+      <p class="text-gray-400">Copyright © 2024 - All right reserved by owner - MuHammad Saif</p>
+    </aside>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* Common Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner */
+.banner-container{
+    background: url(../images/b4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
